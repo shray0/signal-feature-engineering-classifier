@@ -10,7 +10,7 @@ Each sample is a `187 × 8` numerical "pulse" array. The goal is to classify eac
 - Normalized each sample independently to remove absolute scale differences.
 - Extracted statistical descriptors such as standard deviation, skewness, kurtosis, higher-order moments, max values, and finite-difference features.
 - Evaluated features with a depth-limited `DecisionTreeClassifier`.
-- Reached about **93.08% validation accuracy / ROC-AUC-style score** in the original notebook setup.
+- Reached about **95.08% validation accuracy / ROC-AUC-style score** in the original notebook setup.
 
 ## Why this project matters
 
